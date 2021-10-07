@@ -11,7 +11,7 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\ALANCR~1\AppData\Local\Temp\xcAs8to.o
+$C:\Users\ALANCR~1\AppData\Local\Temp\xcAsgt8.o
 idloc IDLOC 5 200000 200000 8 1
 init CODE 0 0 0 4 1
 config CONFIG 4 300000 300000 E 1
@@ -28,9 +28,9 @@ text6 CODE 0 6D1E 6D1E 106 1
 text7 CODE 0 6CD8 6CD8 46 1
 text8 CODE 0 7652 7652 4C0 1
 text9 CODE 0 72B8 72B8 39A 1
-idataCOMRAM CODE 0 6C50 6C50 4 1
+idataCOMRAM CODE 0 6C4E 6C4E 6 1
 cstackCOMRAM COMRAM 1 1 1 3C 1
-dataCOMRAM COMRAM 1 4B 4B 4 1
+dataCOMRAM COMRAM 1 4B 4B 6 1
 bssCOMRAM COMRAM 1 3D 3D E 1
 config CONFIG 4 300000 300000 E 1
 # %UNUSED Section
@@ -49,14 +49,14 @@ BANK4 400-4FF 1
 BANK5 500-5FF 1
 BANK6 600-6FF 1
 BANK7 700-7FF 1
-CONST 4-6C4F 1
+CONST 4-6C4D 1
 STACK 60-7FF 1
-SMALLCONST 800-6C4F 1
-CODE 4-6C4F 1
-BIGRAM 4F-7FF 1
-COMRAM 4F-5F 1
+SMALLCONST 800-6C4D 1
+CODE 4-6C4D 1
+BIGRAM 51-7FF 1
+COMRAM 51-5F 1
 EEDATA F00000-F000FF 1
-MEDIUMCONST 800-6C4F 1
+MEDIUMCONST 800-6C4D 1
 # %LINETAB Section
 # This section enumerates the file/line to address mappings.
 # The beginning of the section is indicated by %LINETAB.
@@ -329,127 +329,127 @@ $dist/default/production\Practica_Integradora2.X.production.o
 72A4 text5 CODE >42:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
 72A6 text5 CODE >43:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
 72B6 text5 CODE >44:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
-6E24 text4 CODE >38:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-6E24 text4 CODE >40:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-6E7C text4 CODE >41:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-6F08 text4 CODE >43:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-6F14 text4 CODE >44:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-6F16 text4 CODE >45:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-6F32 text4 CODE >46:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-6F40 text4 CODE >47:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-6F42 text4 CODE >49:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-6F44 text4 CODE >50:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-6F60 text4 CODE >51:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-6F6E text4 CODE >52:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-6F70 text4 CODE >53:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-6F92 text4 CODE >54:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-6F94 text3 CODE >18:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-6F94 text3 CODE >21:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-6FEC text3 CODE >22:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7078 text3 CODE >24:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7084 text3 CODE >26:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7086 text3 CODE >27:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-70A2 text3 CODE >28:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-70B0 text3 CODE >29:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-70B2 text3 CODE >31:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-70B4 text3 CODE >32:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-70D0 text3 CODE >33:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-70DE text3 CODE >34:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-70E0 text3 CODE >35:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7102 text3 CODE >37:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7B12 text2 CODE >74:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7B12 text2 CODE >76:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7B2E text2 CODE >77:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7B4A text2 CODE >78:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7B66 text2 CODE >80:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7B82 text2 CODE >81:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7B9E text2 CODE >83:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7BBA text2 CODE >85:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7BD6 text2 CODE >86:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7BF2 text2 CODE >88:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7C0E text2 CODE >90:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7C2A text2 CODE >91:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7C46 text2 CODE >92:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7C62 text2 CODE >94:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7C7E text2 CODE >95:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7C9A text2 CODE >97:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7CB6 text2 CODE >99:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7CD2 text2 CODE >100:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7CEE text2 CODE >102:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7D0A text2 CODE >104:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7D26 text2 CODE >105:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7D42 text2 CODE >106:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7D5E text2 CODE >107:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7D7A text2 CODE >109:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7D96 text2 CODE >110:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7DB2 text2 CODE >112:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7DCE text2 CODE >113:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7DEA text2 CODE >114:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7E06 text2 CODE >116:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7E22 text2 CODE >117:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7E3E text2 CODE >118:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7E5A text2 CODE >120:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7E76 text2 CODE >121:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7E92 text2 CODE >123:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7EAE text2 CODE >124:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7ECA text2 CODE >125:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7EE6 text2 CODE >127:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7F02 text2 CODE >128:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7F1E text2 CODE >129:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7F3A text2 CODE >130:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7F56 text2 CODE >131:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7F72 text2 CODE >133:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7F8E text2 CODE >134:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7FAA text2 CODE >135:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7FC6 text2 CODE >136:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7FE2 text2 CODE >137:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-7FFE text2 CODE >138:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-6C54 text1 CODE >59:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-6C54 text1 CODE >61:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-6C56 text1 CODE >62:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-6C58 text1 CODE >63:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-6C5A text1 CODE >64:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-6C5C text1 CODE >65:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-6C5E text1 CODE >66:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-6C66 text1 CODE >68:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-6C68 text1 CODE >71:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-6C9C text0 CODE >142:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-6C9C text0 CODE >144:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-6CA0 text0 CODE >146:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-6CA4 text0 CODE >147:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-6CA6 text0 CODE >148:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-6CAA text0 CODE >152:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-6CB8 text0 CODE >153:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-6CC6 text0 CODE >154:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-6CCA text0 CODE >156:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-6CCE text0 CODE >158:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+6E24 text4 CODE >39:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+6E24 text4 CODE >41:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+6E7C text4 CODE >42:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+6F08 text4 CODE >44:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+6F14 text4 CODE >45:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+6F16 text4 CODE >46:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+6F32 text4 CODE >47:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+6F40 text4 CODE >48:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+6F42 text4 CODE >50:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+6F44 text4 CODE >51:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+6F60 text4 CODE >52:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+6F6E text4 CODE >53:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+6F70 text4 CODE >54:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+6F92 text4 CODE >55:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+6F94 text3 CODE >19:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+6F94 text3 CODE >22:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+6FEC text3 CODE >23:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7078 text3 CODE >25:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7084 text3 CODE >27:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7086 text3 CODE >28:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+70A2 text3 CODE >29:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+70B0 text3 CODE >30:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+70B2 text3 CODE >32:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+70B4 text3 CODE >33:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+70D0 text3 CODE >34:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+70DE text3 CODE >35:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+70E0 text3 CODE >36:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7102 text3 CODE >38:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7B12 text2 CODE >75:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7B12 text2 CODE >77:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7B2E text2 CODE >78:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7B4A text2 CODE >79:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7B66 text2 CODE >81:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7B82 text2 CODE >82:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7B9E text2 CODE >84:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7BBA text2 CODE >86:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7BD6 text2 CODE >87:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7BF2 text2 CODE >89:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7C0E text2 CODE >91:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7C2A text2 CODE >92:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7C46 text2 CODE >93:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7C62 text2 CODE >95:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7C7E text2 CODE >96:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7C9A text2 CODE >98:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7CB6 text2 CODE >100:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7CD2 text2 CODE >101:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7CEE text2 CODE >103:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7D0A text2 CODE >105:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7D26 text2 CODE >106:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7D42 text2 CODE >107:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7D5E text2 CODE >108:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7D7A text2 CODE >110:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7D96 text2 CODE >111:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7DB2 text2 CODE >113:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7DCE text2 CODE >114:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7DEA text2 CODE >115:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7E06 text2 CODE >117:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7E22 text2 CODE >118:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7E3E text2 CODE >119:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7E5A text2 CODE >121:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7E76 text2 CODE >122:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7E92 text2 CODE >124:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7EAE text2 CODE >125:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7ECA text2 CODE >126:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7EE6 text2 CODE >128:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7F02 text2 CODE >129:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7F1E text2 CODE >130:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7F3A text2 CODE >131:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7F56 text2 CODE >132:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7F72 text2 CODE >134:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7F8E text2 CODE >135:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7FAA text2 CODE >136:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7FC6 text2 CODE >137:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7FE2 text2 CODE >138:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+7FFE text2 CODE >139:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+6C54 text1 CODE >60:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+6C54 text1 CODE >62:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+6C56 text1 CODE >63:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+6C58 text1 CODE >64:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+6C5A text1 CODE >65:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+6C5C text1 CODE >66:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+6C5E text1 CODE >67:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+6C66 text1 CODE >69:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+6C68 text1 CODE >72:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+6C9C text0 CODE >143:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+6C9C text0 CODE >145:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+6CA0 text0 CODE >147:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+6CA4 text0 CODE >148:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+6CA6 text0 CODE >149:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+6CAA text0 CODE >153:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+6CB8 text0 CODE >154:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+6CC6 text0 CODE >155:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+6CCA text0 CODE >157:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
 6CCE text0 CODE >159:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
-6C6A cinit CODE >877:C:\Users\ALANCR~1\AppData\Local\Temp\xcAs8to.s
-6C6A cinit CODE >879:C:\Users\ALANCR~1\AppData\Local\Temp\xcAs8to.s
-6C6A cinit CODE >882:C:\Users\ALANCR~1\AppData\Local\Temp\xcAs8to.s
-6C6A cinit CODE >916:C:\Users\ALANCR~1\AppData\Local\Temp\xcAs8to.s
-6C6C cinit CODE >917:C:\Users\ALANCR~1\AppData\Local\Temp\xcAs8to.s
-6C6E cinit CODE >918:C:\Users\ALANCR~1\AppData\Local\Temp\xcAs8to.s
-6C70 cinit CODE >919:C:\Users\ALANCR~1\AppData\Local\Temp\xcAs8to.s
-6C72 cinit CODE >920:C:\Users\ALANCR~1\AppData\Local\Temp\xcAs8to.s
-6C74 cinit CODE >921:C:\Users\ALANCR~1\AppData\Local\Temp\xcAs8to.s
-6C76 cinit CODE >922:C:\Users\ALANCR~1\AppData\Local\Temp\xcAs8to.s
-6C7A cinit CODE >923:C:\Users\ALANCR~1\AppData\Local\Temp\xcAs8to.s
-6C7E cinit CODE >924:C:\Users\ALANCR~1\AppData\Local\Temp\xcAs8to.s
-6C7E cinit CODE >925:C:\Users\ALANCR~1\AppData\Local\Temp\xcAs8to.s
-6C80 cinit CODE >926:C:\Users\ALANCR~1\AppData\Local\Temp\xcAs8to.s
-6C84 cinit CODE >927:C:\Users\ALANCR~1\AppData\Local\Temp\xcAs8to.s
-6C86 cinit CODE >928:C:\Users\ALANCR~1\AppData\Local\Temp\xcAs8to.s
-6C88 cinit CODE >929:C:\Users\ALANCR~1\AppData\Local\Temp\xcAs8to.s
-6C8A cinit CODE >933:C:\Users\ALANCR~1\AppData\Local\Temp\xcAs8to.s
-6C8E cinit CODE >934:C:\Users\ALANCR~1\AppData\Local\Temp\xcAs8to.s
-6C90 cinit CODE >935:C:\Users\ALANCR~1\AppData\Local\Temp\xcAs8to.s
-6C90 cinit CODE >936:C:\Users\ALANCR~1\AppData\Local\Temp\xcAs8to.s
-6C92 cinit CODE >937:C:\Users\ALANCR~1\AppData\Local\Temp\xcAs8to.s
-6C94 cinit CODE >938:C:\Users\ALANCR~1\AppData\Local\Temp\xcAs8to.s
-6C96 cinit CODE >944:C:\Users\ALANCR~1\AppData\Local\Temp\xcAs8to.s
-6C96 cinit CODE >946:C:\Users\ALANCR~1\AppData\Local\Temp\xcAs8to.s
-6C98 cinit CODE >947:C:\Users\ALANCR~1\AppData\Local\Temp\xcAs8to.s
+6CCE text0 CODE >160:C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+6C6A cinit CODE >881:C:\Users\ALANCR~1\AppData\Local\Temp\xcAsgt8.s
+6C6A cinit CODE >883:C:\Users\ALANCR~1\AppData\Local\Temp\xcAsgt8.s
+6C6A cinit CODE >886:C:\Users\ALANCR~1\AppData\Local\Temp\xcAsgt8.s
+6C6A cinit CODE >927:C:\Users\ALANCR~1\AppData\Local\Temp\xcAsgt8.s
+6C6C cinit CODE >928:C:\Users\ALANCR~1\AppData\Local\Temp\xcAsgt8.s
+6C6E cinit CODE >929:C:\Users\ALANCR~1\AppData\Local\Temp\xcAsgt8.s
+6C70 cinit CODE >930:C:\Users\ALANCR~1\AppData\Local\Temp\xcAsgt8.s
+6C72 cinit CODE >931:C:\Users\ALANCR~1\AppData\Local\Temp\xcAsgt8.s
+6C74 cinit CODE >932:C:\Users\ALANCR~1\AppData\Local\Temp\xcAsgt8.s
+6C76 cinit CODE >933:C:\Users\ALANCR~1\AppData\Local\Temp\xcAsgt8.s
+6C7A cinit CODE >934:C:\Users\ALANCR~1\AppData\Local\Temp\xcAsgt8.s
+6C7E cinit CODE >935:C:\Users\ALANCR~1\AppData\Local\Temp\xcAsgt8.s
+6C7E cinit CODE >936:C:\Users\ALANCR~1\AppData\Local\Temp\xcAsgt8.s
+6C80 cinit CODE >937:C:\Users\ALANCR~1\AppData\Local\Temp\xcAsgt8.s
+6C84 cinit CODE >938:C:\Users\ALANCR~1\AppData\Local\Temp\xcAsgt8.s
+6C86 cinit CODE >939:C:\Users\ALANCR~1\AppData\Local\Temp\xcAsgt8.s
+6C88 cinit CODE >940:C:\Users\ALANCR~1\AppData\Local\Temp\xcAsgt8.s
+6C8A cinit CODE >944:C:\Users\ALANCR~1\AppData\Local\Temp\xcAsgt8.s
+6C8E cinit CODE >945:C:\Users\ALANCR~1\AppData\Local\Temp\xcAsgt8.s
+6C90 cinit CODE >946:C:\Users\ALANCR~1\AppData\Local\Temp\xcAsgt8.s
+6C90 cinit CODE >947:C:\Users\ALANCR~1\AppData\Local\Temp\xcAsgt8.s
+6C92 cinit CODE >948:C:\Users\ALANCR~1\AppData\Local\Temp\xcAsgt8.s
+6C94 cinit CODE >949:C:\Users\ALANCR~1\AppData\Local\Temp\xcAsgt8.s
+6C96 cinit CODE >955:C:\Users\ALANCR~1\AppData\Local\Temp\xcAsgt8.s
+6C96 cinit CODE >957:C:\Users\ALANCR~1\AppData\Local\Temp\xcAsgt8.s
+6C98 cinit CODE >958:C:\Users\ALANCR~1\AppData\Local\Temp\xcAsgt8.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -467,17 +467,17 @@ _b 47 0 COMRAM 1 bssCOMRAM dist/default/production\Practica_Integradora2.X.produ
 _s 45 0 COMRAM 1 bssCOMRAM dist/default/production\Practica_Integradora2.X.production.o
 __Lmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production\Practica_Integradora2.X.production.o
 __Hspace_0 8000 0 ABS 0 - dist/default/production\Practica_Integradora2.X.production.o
-__Hspace_1 4F 0 ABS 0 - dist/default/production\Practica_Integradora2.X.production.o
+__Hspace_1 51 0 ABS 0 - dist/default/production\Practica_Integradora2.X.production.o
 __Hspace_2 0 0 ABS 0 - dist/default/production\Practica_Integradora2.X.production.o
 __Hspace_4 60000E 0 ABS 0 - dist/default/production\Practica_Integradora2.X.production.o
 __Hibigdata 0 0 CODE 0 ibigdata dist/default/production\Practica_Integradora2.X.production.o
-__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\ALANCR~1\AppData\Local\Temp\xcAs8to.o
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\ALANCR~1\AppData\Local\Temp\xcAsgt8.o
 __Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\Practica_Integradora2.X.production.o
 __Lsmallconst 0 0 SMALLCONST 0 smallconst dist/default/production\Practica_Integradora2.X.production.o
 _TMR0 FD6 0 ABS 0 - dist/default/production\Practica_Integradora2.X.production.o
-___sp 0 0 STACK 2 stack C:\Users\ALANCR~1\AppData\Local\Temp\xcAs8to.o
+___sp 0 0 STACK 2 stack C:\Users\ALANCR~1\AppData\Local\Temp\xcAsgt8.o
 _main 6C9C 0 CODE 0 text0 dist/default/production\Practica_Integradora2.X.production.o
-start 0 0 CODE 0 init C:\Users\ALANCR~1\AppData\Local\Temp\xcAs8to.o
+start 0 0 CODE 0 init C:\Users\ALANCR~1\AppData\Local\Temp\xcAsgt8.o
 __size_of___fladd 0 0 ABS 0 - dist/default/production\Practica_Integradora2.X.production.o
 __size_of___fldiv 0 0 ABS 0 - dist/default/production\Practica_Integradora2.X.production.o
 __size_of___flsub 0 0 ABS 0 - dist/default/production\Practica_Integradora2.X.production.o
@@ -487,20 +487,20 @@ __HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\Practica_Integradora2.X
 __Hpowerup 0 0 CODE 0 powerup dist/default/production\Practica_Integradora2.X.production.o
 _T0CONbits FD5 0 ABS 0 - dist/default/production\Practica_Integradora2.X.production.o
 __HdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/production\Practica_Integradora2.X.production.o
-__accesstop 60 0 ABS 0 - C:\Users\ALANCR~1\AppData\Local\Temp\xcAs8to.o
-intlevel0 0 0 CODE 0 text C:\Users\ALANCR~1\AppData\Local\Temp\xcAs8to.o
-intlevel1 0 0 CODE 0 text C:\Users\ALANCR~1\AppData\Local\Temp\xcAs8to.o
-intlevel2 0 0 CODE 0 text C:\Users\ALANCR~1\AppData\Local\Temp\xcAs8to.o
-intlevel3 0 0 CODE 0 text C:\Users\ALANCR~1\AppData\Local\Temp\xcAs8to.o
+__accesstop 60 0 ABS 0 - C:\Users\ALANCR~1\AppData\Local\Temp\xcAsgt8.o
+intlevel0 0 0 CODE 0 text C:\Users\ALANCR~1\AppData\Local\Temp\xcAsgt8.o
+intlevel1 0 0 CODE 0 text C:\Users\ALANCR~1\AppData\Local\Temp\xcAsgt8.o
+intlevel2 0 0 CODE 0 text C:\Users\ALANCR~1\AppData\Local\Temp\xcAsgt8.o
+intlevel3 0 0 CODE 0 text C:\Users\ALANCR~1\AppData\Local\Temp\xcAsgt8.o
 __LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\Practica_Integradora2.X.production.o
 __LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\Practica_Integradora2.X.production.o
 __Hifardata 0 0 CODE 0 ifardata dist/default/production\Practica_Integradora2.X.production.o
 silencio@tfrec 34 0 COMRAM 1 cstackCOMRAM dist/default/production\Practica_Integradora2.X.production.o
 __Hclrtext 0 0 ABS 0 clrtext dist/default/production\Practica_Integradora2.X.production.o
-__pidataCOMRAM 6C50 0 CODE 0 idataCOMRAM dist/default/production\Practica_Integradora2.X.production.o
+__pidataCOMRAM 6C4E 0 CODE 0 idataCOMRAM dist/default/production\Practica_Integradora2.X.production.o
 _ADCON1 FC1 0 ABS 0 - dist/default/production\Practica_Integradora2.X.production.o
-___inthi_sp 0 0 STACK 2 stack C:\Users\ALANCR~1\AppData\Local\Temp\xcAs8to.o
-___intlo_sp 0 0 STACK 2 stack C:\Users\ALANCR~1\AppData\Local\Temp\xcAs8to.o
+___inthi_sp 0 0 STACK 2 stack C:\Users\ALANCR~1\AppData\Local\Temp\xcAsgt8.o
+___intlo_sp 0 0 STACK 2 stack C:\Users\ALANCR~1\AppData\Local\Temp\xcAsgt8.o
 __LdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/production\Practica_Integradora2.X.production.o
 __Hintcode_body 0 0 ABS 0 intcode_body dist/default/production\Practica_Integradora2.X.production.o
 __Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\Practica_Integradora2.X.production.o
@@ -526,7 +526,7 @@ start_initialization 6C6A 0 CODE 0 cinit dist/default/production\Practica_Integr
 __HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\Practica_Integradora2.X.production.o
 ___rparam_used 1 0 ABS 0 - dist/default/production\Practica_Integradora2.X.production.o
 _tocar_nota 6F94 0 CODE 0 text3 dist/default/production\Practica_Integradora2.X.production.o
-isa$xinst 0 0 ABS 0 - C:\Users\ALANCR~1\AppData\Local\Temp\xcAs8to.o
+isa$xinst 0 0 ABS 0 - C:\Users\ALANCR~1\AppData\Local\Temp\xcAsgt8.o
 __Hbank0 0 0 ABS 0 bank0 dist/default/production\Practica_Integradora2.X.production.o
 __Hbank1 0 0 ABS 0 bank1 dist/default/production\Practica_Integradora2.X.production.o
 __Hbank2 0 0 ABS 0 bank2 dist/default/production\Practica_Integradora2.X.production.o
@@ -556,7 +556,7 @@ __Htext9 0 0 ABS 0 text9 dist/default/production\Practica_Integradora2.X.product
 __size_of___xxtofl 0 0 ABS 0 - dist/default/production\Practica_Integradora2.X.production.o
 __Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\Practica_Integradora2.X.production.o
 __Hbigram 0 0 ABS 0 bigram dist/default/production\Practica_Integradora2.X.production.o
-__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\ALANCR~1\AppData\Local\Temp\xcAs8to.o
+__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\ALANCR~1\AppData\Local\Temp\xcAsgt8.o
 ___xxtofl@arg B 0 COMRAM 1 cstackCOMRAM dist/default/production\Practica_Integradora2.X.production.o
 ___xxtofl@exp A 0 COMRAM 1 cstackCOMRAM dist/default/production\Practica_Integradora2.X.production.o
 ___xxtofl@val 1 0 COMRAM 1 cstackCOMRAM dist/default/production\Practica_Integradora2.X.production.o
@@ -613,11 +613,11 @@ __HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\Practica_Integrad
 __Hintret 0 0 ABS 0 intret dist/default/production\Practica_Integradora2.X.production.o
 __Hirdata 0 0 CODE 0 irdata dist/default/production\Practica_Integradora2.X.production.o
 __S0 8000 0 ABS 0 - dist/default/production\Practica_Integradora2.X.production.o
-__S1 4F 0 ABS 0 - dist/default/production\Practica_Integradora2.X.production.o
+__S1 51 0 ABS 0 - dist/default/production\Practica_Integradora2.X.production.o
 __S2 0 0 ABS 0 - dist/default/production\Practica_Integradora2.X.production.o
 __S4 0 0 ABS 0 - dist/default/production\Practica_Integradora2.X.production.o
 __S5 0 0 ABS 0 - dist/default/production\Practica_Integradora2.X.production.o
-_silencio$875 39 0 COMRAM 1 cstackCOMRAM dist/default/production\Practica_Integradora2.X.production.o
+_silencio$876 39 0 COMRAM 1 cstackCOMRAM dist/default/production\Practica_Integradora2.X.production.o
 _confT0 6C54 0 CODE 0 text1 dist/default/production\Practica_Integradora2.X.production.o
 __HidataCOMRAM 0 0 ABS 0 idataCOMRAM dist/default/production\Practica_Integradora2.X.production.o
 __Lbigdata 0 0 BIGRAM 1 bigdata dist/default/production\Practica_Integradora2.X.production.o
@@ -645,10 +645,10 @@ ___fldiv@grs 22 0 COMRAM 1 cstackCOMRAM dist/default/production\Practica_Integra
 ___fldiv@rem 1B 0 COMRAM 1 cstackCOMRAM dist/default/production\Practica_Integradora2.X.production.o
 __Lfarbss 0 0 FARRAM 0 farbss dist/default/production\Practica_Integradora2.X.production.o
 __Lfardata 0 0 FARRAM 0 fardata dist/default/production\Practica_Integradora2.X.production.o
-isa$std 1 0 ABS 0 - C:\Users\ALANCR~1\AppData\Local\Temp\xcAs8to.o
+isa$std 1 0 ABS 0 - C:\Users\ALANCR~1\AppData\Local\Temp\xcAsgt8.o
 ___fldiv@new_exp 20 0 COMRAM 1 cstackCOMRAM dist/default/production\Practica_Integradora2.X.production.o
-stackhi 7FF 0 ABS 0 - C:\Users\ALANCR~1\AppData\Local\Temp\xcAs8to.o
-stacklo 60 0 ABS 0 - C:\Users\ALANCR~1\AppData\Local\Temp\xcAs8to.o
+stackhi 7FF 0 ABS 0 - C:\Users\ALANCR~1\AppData\Local\Temp\xcAsgt8.o
+stacklo 60 0 ABS 0 - C:\Users\ALANCR~1\AppData\Local\Temp\xcAsgt8.o
 __Lintcode 0 0 CODE 0 intcode dist/default/production\Practica_Integradora2.X.production.o
 __Lintret 0 0 ABS 0 intret dist/default/production\Practica_Integradora2.X.production.o
 __Lirdata 0 0 CODE 0 irdata dist/default/production\Practica_Integradora2.X.production.o
@@ -687,7 +687,7 @@ __ptext8 7652 0 CODE 0 text8 dist/default/production\Practica_Integradora2.X.pro
 __ptext9 72B8 0 CODE 0 text9 dist/default/production\Practica_Integradora2.X.production.o
 _distancia 4B 0 COMRAM 1 dataCOMRAM dist/default/production\Practica_Integradora2.X.production.o
 __Lstruct 0 0 COMRAM 1 struct dist/default/production\Practica_Integradora2.X.production.o
-__ramtop 800 0 RAM 0 ramtop C:\Users\ALANCR~1\AppData\Local\Temp\xcAs8to.o
+__ramtop 800 0 RAM 0 ramtop C:\Users\ALANCR~1\AppData\Local\Temp\xcAsgt8.o
 __size_of_tocar_nota 0 0 ABS 0 - dist/default/production\Practica_Integradora2.X.production.o
 __Lpowerup 0 0 CODE 0 powerup dist/default/production\Practica_Integradora2.X.production.o
 ?___xxtofl 1 0 COMRAM 1 cstackCOMRAM dist/default/production\Practica_Integradora2.X.production.o
@@ -707,7 +707,7 @@ __pcstackCOMRAM 1 0 COMRAM 1 cstackCOMRAM dist/default/production\Practica_Integ
 _silencio 6E24 0 CODE 0 text4 dist/default/production\Practica_Integradora2.X.production.o
 __end_of_main 6CD8 0 CODE 0 text0 dist/default/production\Practica_Integradora2.X.production.o
 __end_of_silencio 6F94 0 CODE 0 text4 dist/default/production\Practica_Integradora2.X.production.o
-_tocar_nota$874 39 0 COMRAM 1 cstackCOMRAM dist/default/production\Practica_Integradora2.X.production.o
+_tocar_nota$875 39 0 COMRAM 1 cstackCOMRAM dist/default/production\Practica_Integradora2.X.production.o
 _TRISA F92 0 ABS 0 - dist/default/production\Practica_Integradora2.X.production.o
 _TRISB F93 0 ABS 0 - dist/default/production\Practica_Integradora2.X.production.o
 __HRAM 0 0 ABS 0 - dist/default/production\Practica_Integradora2.X.production.o
@@ -718,6 +718,7 @@ __LRAM 1 0 ABS 0 - dist/default/production\Practica_Integradora2.X.production.o
 __Lbss 0 0 RAM 1 bss dist/default/production\Practica_Integradora2.X.production.o
 __Lram 0 0 ABS 0 ram dist/default/production\Practica_Integradora2.X.production.o
 __Lsfr 0 0 ABS 0 sfr dist/default/production\Practica_Integradora2.X.production.o
+_valor 4F 0 COMRAM 1 dataCOMRAM dist/default/production\Practica_Integradora2.X.production.o
 __initialization 6C6A 0 CODE 0 cinit dist/default/production\Practica_Integradora2.X.production.o
 ___xxtofl@sign 9 0 COMRAM 1 cstackCOMRAM dist/default/production\Practica_Integradora2.X.production.o
 __pdataCOMRAM 4B 0 COMRAM 1 dataCOMRAM dist/default/production\Practica_Integradora2.X.production.o
@@ -761,8 +762,8 @@ text6 0 6D1E 6D1E 106 1
 text7 0 6CD8 6CD8 46 1
 text8 0 7652 7652 4C0 1
 text9 0 72B8 72B8 39A 1
-idataCOMRAM 0 6C50 6C50 4 1
-cstackCOMRAM 1 1 1 4E 1
+idataCOMRAM 0 6C4E 6C4E 6 1
+cstackCOMRAM 1 1 1 50 1
 reset_vec 0 0 0 4 1
 # %NOTES Section
 # This section contains data of all the note-psects.  The beginning of the section

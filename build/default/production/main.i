@@ -5770,7 +5770,8 @@ extern __attribute__((nonreentrant)) void _delay3(unsigned char);
 
 char buffer1[8];
 float distancia = 2;
-     int a,b,s;
+int a,b,s;
+int valor = 500;
 
  void tocar_nota(int duracion, float tfrec){
 

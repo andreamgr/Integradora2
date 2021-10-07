@@ -13,7 +13,8 @@
 
 char buffer1[8];
 float distancia = 2;
-     int a,b,s;//DECLARAMOS VARIABLES DE TIPO ENTERO
+int a,b,s;//DECLARAMOS VARIABLES DE TIPO ENTERO
+int valor = 500;
 
  void tocar_nota(int duracion, float tfrec){  //funcion generadora de notas, periodo de la nota y duracion de esta
  

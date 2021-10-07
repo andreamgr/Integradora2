@@ -31,15 +31,15 @@
 [v ___omul __omul `(uo  1 e 8 0 ]
 "10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
 [v ___xxtofl __xxtofl `(d  1 e 4 0 ]
-"18 C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
+"19 C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
 [v _tocar_nota tocar_nota `(v  1 e 1 0 ]
-"38
+"39
 [v _silencio silencio `(v  1 e 1 0 ]
-"59
+"60
 [v _confT0 confT0 `(v  1 e 1 0 ]
-"74
+"75
 [v _cancion1 cancion1 `(v  1 e 1 0 ]
-"142
+"143
 [v _main main `(v  1 e 1 0 ]
 [s S24 . 1 `uc 1 RA0 1 0 :1:0 
 `uc 1 RA1 1 0 :1:1 
@@ -143,34 +143,34 @@
 [v _INTCONbits INTCONbits `VES108  1 e 1 @4082 ]
 "16 C:\Users\Microcontroladores\Practica_Integradora2.X\main.c
 [v _b b `i  1 e 2 0 ]
-"142
+"143
 [v _main main `(v  1 e 1 0 ]
 {
-"170
+"171
 } 0
-"59
+"60
 [v _confT0 confT0 `(v  1 e 1 0 ]
 {
-"71
+"72
 } 0
-"74
+"75
 [v _cancion1 cancion1 `(v  1 e 1 0 ]
 {
-"138
+"139
 } 0
-"18
+"19
 [v _tocar_nota tocar_nota `(v  1 e 1 0 ]
 {
 [v tocar_nota@duracion duracion `i  1 p 2 49 ]
 [v tocar_nota@tfrec tfrec `f  1 p 4 51 ]
-"37
-} 0
 "38
+} 0
+"39
 [v _silencio silencio `(v  1 e 1 0 ]
 {
 [v silencio@duracion duracion `i  1 p 2 49 ]
 [v silencio@tfrec tfrec `f  1 p 4 51 ]
-"54
+"55
 } 0
 "10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
 [v ___xxtofl __xxtofl `(d  1 e 4 0 ]
