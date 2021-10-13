@@ -173,6 +173,19 @@ char *ctermid(char *);
 char *tempnam(const char *, const char *);
 # 8 "main.c" 2
 
+
+# 1 "C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\\pic\\include\\xc.h" 1 3
+# 18 "C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\\pic\\include\\xc.h" 3
+extern const char __xc8_OPTIM_SPEED;
+
+extern double __fpnormalize(double);
+
+
+
+# 1 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\xc8debug.h" 1 3
+
+
+
 # 1 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\stdlib.h" 1 3
 # 21 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\stdlib.h" 3
 # 1 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\bits/alltypes.h" 1 3
@@ -231,18 +244,15 @@ uldiv_t uldiv (unsigned long, unsigned long);
 
 
 size_t __ctype_get_mb_cur_max(void);
-# 9 "main.c" 2
-
-# 1 "C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\\pic\\include\\xc.h" 1 3
-# 18 "C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\\pic\\include\\xc.h" 3
-extern const char __xc8_OPTIM_SPEED;
-
-extern double __fpnormalize(double);
+# 4 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\xc8debug.h" 2 3
 
 
 
-# 1 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\xc8debug.h" 1 3
-# 12 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\xc8debug.h" 3
+
+
+
+
+
 #pragma intrinsic(__builtin_software_breakpoint)
 extern void __builtin_software_breakpoint(void);
 # 24 "C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\\pic\\include\\xc.h" 2 3
@@ -5768,18 +5778,22 @@ extern __attribute__((nonreentrant)) void _delay3(unsigned char);
 
 
 
+     int vel = 500;
+
+   int j = 0;
+   int k = 0;
 char buffer1[8];
-float distancia = 2;
+
+    int l = 0;
 int a,b,s;
-int valor = 500;
 
  void tocar_nota(int duracion, float tfrec){
 
-
-     duracion = duracion/tfrec;
+     int duracion2;
+     duracion2 = (int)duracion/tfrec;
      tfrec = 255-((tfrec/2)/(.0002*128));
 
-       for(b=0;b<duracion;b++){
+       for(b=0;b<duracion2;b++){
 
             PORTAbits.RA0 = 1;
            TMR0 = tfrec;
@@ -5825,62 +5839,61 @@ int valor = 500;
 
 
  }
-     double vel = 500;
- double cancion[44][3] =
-     {
-      {vel, 3.034,1},{vel, 3.034,1},{vel,3.034,1},{(vel*.75),3.82,1},{(vel*.25),2.55,1},{vel,3.034,1},{(vel*.75),3.82,1},{(vel*.25),2.551,1},{(vel*2),3.034,1},{(vel),2.028,1},
-      {vel,2.028,1},{vel,2.028,1},{vel*.75,1.911,1},{vel*.25,2.551,1},{vel,3.61,1},{vel*.75,3.82,1},{vel*.25,2.551,1},{vel*2,3.034,1},{vel,1.517,1},{vel*.75,3.034,1},
-      {vel*.25,3.034,1},{vel,1.517,1},{vel*.75,1.607,1},{vel*.25,1.703,1},{vel*.25,1.804,1},{vel*.25,1.911,1},{vel*.6,1.804,1},{vel*.2,1,0},{vel*.60,2.863,1},{vel,2.145,1},
-      {vel*.75,2.273,1},{vel*.25,2.408,1},{vel*.25,2.551,1},{vel*.25,2.703,1},{vel*.6,2.551,1},{vel*.2,1,0},{vel*.6,3.822,1},{vel,3.608,1},{vel*.75,3.822,1},{vel*.25,2.551,1},
-      {vel,3.034,1},{vel*.75,3.822,1},{vel*.25,2.551,1},{vel*5,3.034,1}
-      };
+# 90 "main.c"
+  float cancion[44][3] =
+  {
+ { 1, 3.034,1},{ 1, 3.034,1},{ 1,3.034,1},{( .75),3.82,1},{( .25),2.55,1},{ 1,3.034,1},{( .75),3.82,1},{( .25),2.551,1},{( 2),3.034,1},{(1),2.028,1},
+ { 1,2.028,1},{ 1,2.028,1},{ (0.75),1.911,1},{ (0.25),2.551,1},{ 1,3.61,1},{ (0.75),3.82,1},{ (0.25),2.551,1},{ 2,3.034,1},{ 1,1.517,1},{ (0.75),3.034,1},
+ { (0.25),3.034,1},{ 1,1.517,1},{ (0.75),1.607,1},{ (0.25),1.703,1},{ (0.25),1.804,1},{ (0.25),1.911,1},{ (0.60),1.804,1},{ (0.20),1,0},{ (0.60),2.863,1},{ 1,2.145,1},
+ { (0.75),2.273,1},{ (0.25),2.408,1},{ (0.25),2.551,1},{ (0.25),2.703,1},{ (0.60),2.551,1},{ (0.20),1,0},{ (0.60),3.822,1},{ 1,3.608,1},{ (0.75),3.822,1},{ (0.25),2.551,1},
+ { 1,3.034,1},{ (0.75),3.822,1},{ (0.25),2.551,1},{ 5,3.034,1}
+ };
 
  void cancion1(){
-     tocar_nota(500,3.034);
-      tocar_nota(500,3.034);
-      tocar_nota(500,3.034);
-       tocar_nota(375,3.82);
-        tocar_nota(125,2.551);
-        tocar_nota(500,3.034);
-       tocar_nota(375,3.82);
-        tocar_nota(125,2.551);
-        tocar_nota(1000,3.034);
-        tocar_nota(500,2.028);
-        tocar_nota(500,2.028);
-        tocar_nota(500,2.028);
-        tocar_nota(375,1.911);
-        tocar_nota(125,2.551);
-        tocar_nota(500,3.61);
-         tocar_nota(375,3.82);
-        tocar_nota(125,2.551);
-        tocar_nota(1000,3.034);
-        tocar_nota(500,1.517);
-        tocar_nota(375,3.034);
-        tocar_nota(125,3.034);
-        tocar_nota(500,1.517);
-        tocar_nota(375,1.607);
-        tocar_nota(125,1.703);
-         tocar_nota(125,1.804);
-          tocar_nota(125,1.911);
-          tocar_nota(300,1.804);
-          silencio(100,3.822);
-          tocar_nota(300,2.863);
-          tocar_nota(500,2.145);
-          tocar_nota(375,2.273);
-        tocar_nota(125,2.408);
-        tocar_nota(125,2.551);
-        tocar_nota(125,2.703);
-        tocar_nota(300,2.551);
-        silencio(100,3.822);
-        tocar_nota(300,3.822);
-        tocar_nota(500,3.608);
-         tocar_nota(375,3.822);
-        tocar_nota(125,2.551);
-        tocar_nota(500,3.034);
-        tocar_nota(375,3.822);
-        tocar_nota(125,2.551);
-        tocar_nota(2500,3.034);
-        silencio(1000,3.822);
+
+
+for( j = 0; j < 44; j ++){
+
+     if (PORTBbits.RB1 == 1) {
+            while(PORTBbits.RB1 == 1);
+            j = 45;
+     }
+
+    if (PORTBbits.RB0 == 1) {
+            while(PORTBbits.RB0 == 1);
+            k ++;
+     }
+
+        if(k >= 3){
+                k = 0;
+            }
+            else{
+                switch (k){
+                    case 0:
+                    vel = 250;
+                    break;
+
+                     case 1:
+                    vel = 500;
+                    break;
+
+                     case 2:
+                    vel = 750;
+                    break;
+                }
+
+            }
+
+        if(cancion[j][2] == 1){
+            tocar_nota(vel*cancion[j][0],cancion[j][1]);
+        }
+
+        else if(cancion[j][2] == 0){
+            silencio(vel*cancion[j][0],cancion[j][1]);
+        }
+    }
+  l = 0;
+return;
  }
 
 
@@ -5899,22 +5912,43 @@ void main(void) {
 
 while (1) {
 
-     if (PORTBbits.RB0 == 1) {
-         while(PORTBbits.RB0==1);
+
+    if (PORTBbits.RB2 == 1) {
+            while(PORTBbits.RB2 == 1);
+            l ++;
+     }
+
+        if(l >= 3){
+                l = 0;
+            }
+            else{
+                switch (l){
+                    case 0:
+                    if (PORTBbits.RB1 == 1) {
+            while(PORTBbits.RB1 == 1);
+            cancion1();
+
+     }
+                    break;
+
+                     case 1:
+                    if (PORTBbits.RB1 == 1) {
+            while(PORTBbits.RB1 == 1);
                        cancion1();
 
      }
+                    break;
 
-     else{
-         PORTAbits.RA0 = 0;
+                     case 2:
+                   if (PORTBbits.RB1 == 1) {
+            while(PORTBbits.RB1 == 1);
+            cancion1();
      }
+                    break;
+                }
 
-  }
+            }
 
-
-
-
-
-
-
+    }
+# 208 "main.c"
 }
